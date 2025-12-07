@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <img class="image-gradient" src="gradient.png" alt="gradient" />
+    <div class="layer-blur"></div>
+
+    <div class="container">
+      <header>
+        <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">BAbu</h1>
+
+        <nav>
+          <a data-aos="fade-down" data-aos-duration="1500" href="#">About</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="#">Posts</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="#">Blogs</a>
+        </nav>
+
+        <button
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          class="btn-signing"
+        >
+          Contact Me
+        </button>
+      </header>
+
+      <main>
+        <div class="content">
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            class="tag-box"
+            data-aos-duration="1500"
+          >
+            <div class="tag">Nice to Meet You &wedbar;</div>
+          </div>
+          <h1
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2000"
+          >
+            I&apos;m Pushpkant Rathore
+          </h1>
+
+          <p
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2500"
+            class="description"
+          >
+            I am a first-year UnderGrade Student at Mumbai University. My
+            interests lie in the Agentic Robot and Agent tools wants to speedup
+            robots perfomance and efficiency.
+          </p>
+
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="3000"
+            class="buttons"
+          >
+            <a href="#" class="btn-blogs">BLOGS &gt;</a>
+            <a href="#" class="btn-github">GITHUB &gt; </a>
+          </div>
+        </div>
+      </main>
+      <spline-viewer
+        class="robo"
+        url="https://prod.spline.design/9AJvFDh4CjIqOv0K/scene.splinecode"
+      ></spline-viewer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.12.6/build/spline-viewer.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
